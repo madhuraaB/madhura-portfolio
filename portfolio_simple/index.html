@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08080b">
+  <meta name="description" content="Madhura Bhuvad's portfolio showcasing Data Science, Machine Learning, and AI projects.">
+  <title>Madhura Bhuvad | Data Science & AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Madhura Bhuvad home">
+        Madhura <span>Bhuvad</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Toolkit</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education & Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <p class="domains">
+          Data Science <span>|</span> Machine Learning
+          <span>|</span> Artificial Intelligence <span>|</span> Python
+        </p>
+
+        <h1>
+          Finding patterns in data.
+          <br>
+          <span>Turning insights into action.</span>
+        </h1>
+
+        <p class="hero-copy">
+          I enjoy exploring data, developing machine learning solutions,
+          and turning ideas into practical applications that solve
+          meaningful problems.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            View Projects <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-outline" href="#resume">
+            View Resume <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-light" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="section-kicker">01 / ABOUT</p>
+          <h2>About <span>me</span></h2>
+        </div>
+
+        <div class="section-copy">
+          <p>
+            I’m a final-year B.Tech Information Technology student
+            specialising in AI and Robotics, with a strong interest in
+            Data Science, Machine Learning, and Python-based development.
+            I enjoy working with data to discover patterns, build
+            predictive models, and develop useful applications.
+          </p>
+          <p>
+            Through academic and personal projects, I’ve explored data
+            preparation, model development, evaluation, and application
+            building. I’m looking to learn from real-world problems,
+            collaborate with teams, and contribute to practical,
+            data-driven solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-kicker">02 / TOOLKIT</p>
+        <h2>Tools I work <span>with.</span></h2>
+
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3>Programming</h3>
+            <div class="skill-chips">
+              <span>Python</span>
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Data Science & ML</h3>
+            <div class="skill-chips">
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Scikit-learn</span>
+              <span>TensorFlow / Keras</span>
+              <span>OpenCV</span>
+              <span>Data Cleaning</span>
+              <span>EDA</span>
+              <span>Feature Engineering</span>
+              <span>Model Evaluation</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Web & API Development</h3>
+            <div class="skill-chips">
+              <span>FastAPI</span>
+              <span>Streamlit</span>
+              <span>React</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>REST APIs</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Databases</h3>
+            <div class="skill-chips">
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>SQLite</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Tools & Platforms</h3>
+            <div class="skill-chips">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Jupyter Notebook</span>
+              <span>LabelImg</span>
+              <span>Android Studio</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Professional Skills</h3>
+            <div class="skill-chips">
+              <span>Problem Solving</span>
+              <span>Communication</span>
+              <span>Teamwork</span>
+              <span>Adaptability</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-light" id="experience">
+      <div class="container">
+        <p class="section-kicker">03 / EXPERIENCE</p>
+        <h2>Learning through <span>experience.</span></h2>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jun – Sep 2026</div>
+          <div class="timeline-content">
+            <h3>Data Analytics Intern</h3>
+            <p class="muted">Cloud Counselage Pvt. Ltd. · Virtual</p>
+            <p>
+              Worked on a data analytics project involving data
+              preparation, cleaning, exploratory analysis, and insight
+              generation. Used Python-based tools to prepare and analyse
+              structured data for reporting.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-kicker">04 / EDUCATION & CERTIFICATIONS</p>
+        <h2>Education &amp; <span>certifications.</span></h2>
+
+        <article class="timeline-item education-item">
+          <div class="timeline-date">2023 – 2027</div>
+          <div class="timeline-content">
+            <h3>B.Tech in Information Technology — AI & Robotics</h3>
+            <p class="muted">Pillai College of Engineering, New Panvel</p>
+            <p>CGPA: <strong>9.66 / 10</strong></p>
+          </div>
+        </article>
+
+        <article class="cert-card">
+            <span class="cert-provider">IIT Bombay Spoken Tutorial</span>
+            <h3>Python Certification</h3>
+          </article>
+
+          <article class="cert-card">
+            <span class="cert-provider">Deloitte Australia</span>
+            <h3>Data Analytics Job Simulation</h3>
+          </article>
+
+
+           <article class="cert-card">
+            <span class="cert-provider">TATA</span>
+            <h3>Gen AI Powered Data Analytics Job Simulation</h3>
+          </article>
+
+        <div class="cert-grid">
+          <article class="cert-card">
+            <span class="cert-provider">Google Cloud</span>
+            <h3>Generative AI Program</h3>
+          </article>
+         
+        
+          <article class="cert-card">
+            <span class="cert-provider">NPTEL</span>
+            <h3>Java Certification</h3>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <p class="section-kicker">05 / PROJECTS</p>
+        <h2>Projects &amp; <span>practical work.</span></h2>
+
+        <div class="project-timeline">
+
+  
+
+          <!-- NUTRIVISION -->
+          <article class="project-timeline-item">
+            <div class="project-marker" aria-hidden="true"></div>
+
+            <div class="project-card">
+              <p class="project-category">
+                Data Science · AI/ML · Deep Learning · Computer Vision
+              </p>
+              <h3>NutriVision-AI</h3>
+
+              <p>
+                Developed a 20-class Indian food image classifier and
+                web application that provides food predictions,
+                nutrition details, health scores, and dietary
+                recommendations.
+              </p>
+
+              <div class="tech-line">
+                <strong>TECH STACK</strong>
+                <div class="tech-tags">
+                  <span>Python</span>
+                  <span>TensorFlow</span>
+                  <span>Keras</span>
+                  <span>FastAPI</span>
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                  <span>NumPy</span>
+                  <span>Pillow</span>
+                  <span>REST API</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://nutrivision-ai-web.vercel.app/"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- STUDENT PERFORMANCE -->
+          <article class="project-timeline-item">
+            <div class="project-marker" aria-hidden="true"></div>
+
+            <div class="project-card">
+              <p class="project-category">
+                Data Science · Predictive Modelling · Machine Learning
+              </p>
+              <h3>Student Performance Predictor</h3>
+
+              <p>
+                Built a machine learning application to predict exam
+                scores using academic, behavioral, and environmental
+                factors. Performed data cleaning and feature engineering,
+                compared regression models, and deployed an interactive
+                prediction interface.
+              </p>
+
+              <div class="tech-line">
+                <strong>TECH STACK</strong>
+                <div class="tech-tags">
+                  <span>Python</span>
+                  <span>Pandas</span>
+                  <span>NumPy</span>
+                  <span>Scikit-learn</span>
+                  <span>Linear Regression</span>
+                  <span>Random Forest</span>
+                  <span>XGBoost</span>
+                  <span>Streamlit</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://studentperformancepredictor-dlwto5sjqs6lkwwqx5de79.streamlit.app/"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SMART OUTFIT -->
+          <article class="project-timeline-item">
+            <div class="project-marker" aria-hidden="true"></div>
+
+            <div class="project-card">
+              <p class="project-category">
+                Machine Learning · Computer Vision · AI
+              </p>
+              <h3>Smart Outfit Recommender</h3>
+
+              <p>
+                Developed a web application for body-shape classification
+                and personalized outfit recommendations using body
+                measurements and visual features. Combined machine
+                learning predictions with rule-based recommendation logic.
+              </p>
+
+              <div class="tech-line">
+                <strong>TECH STACK</strong>
+                <div class="tech-tags">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>OpenCV</span>
+                  <span>MediaPipe</span>
+                  <span>Scikit-learn</span>
+                </div>
+              </div>
+               <div class="project-links">
+                <a href="https://smart-outfit-recommendation.onrender.com/"
+                   target="_blank" rel="noopener noreferrer">
+                  Live Demo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+                  <!-- DARPAN -->
+          <article class="project-timeline-item">
+            <div class="project-marker" aria-hidden="true"></div>
+
+            <div class="project-card">
+              <p class="project-category">
+              AI · ML · Computer Vision · Dark-Pattern Detection
+              </p>
+              <h3>DARPAN — Dark Pattern Detection System</h3>
+
+              <p>
+                Project focused on identifying deceptive design
+                patterns on booking platforms. Contributed to dataset
+                creation, screenshot annotation using LabelImg, and
+                YOLOv8n model training to detect patterns such as hidden
+                fees, false urgency, sneaking, misdirection, interface
+                interference, and obstruction.
+              </p>
+
+              <div class="tech-line">
+                <strong>TECH STACK</strong>
+                <div class="tech-tags">
+                  <span>Python</span>
+                  <span>YOLOv8n</span>
+                  <span>LabelImg</span>
+                  <span>Dataset Creation</span>
+                  <span>Image Annotation</span>
+                  <span>Model Training</span>
+                  <span>OpenCV</span>
+                </div>
+              </div>
+              <p class="contribution-note">
+  <span>✦</span> Tech stack and skills listed above represent my
+  individual contributions to this group project.
+</p>
+            </div>
+          </article>
+
+          <!-- TRACKIFY -->
+          <article class="project-timeline-item">
+            <div class="project-marker" aria-hidden="true"></div>
+
+            <div class="project-card">
+              <p class="project-category">
+                Android · Application Development
+              </p>
+              <h3>Trackify — Expense Tracker</h3>
+
+              <p>
+                Built an Android application to record and manage
+                personal expenses, storing expense records locally
+                for easy access.
+              </p>
+
+              <div class="tech-line">
+                <strong>TECH STACK</strong>
+                <div class="tech-tags">
+                  <span>Java</span>
+                  <span>Android Studio</span>
+                  <span>XML</span>
+                  <span>SQLite</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="ttps://github.com/madhuraaB/"
+                   target="_blank" rel="noopener noreferrer">
+                  Github Repo ↗
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section section-light" id="resume">
+      <div class="container resume-row">
+        <div>
+          <p class="section-kicker">06 / RESUME</p>
+          <h2>Explore my <span>resume.</span></h2>
+          <p class="section-intro">
+            Choose the version most relevant to the opportunity.
+          </p>
+        </div>
+
+        <div class="resume-actions">
+          <a class="button button-primary"
+             href="assets/Madhura_Bhuvad_AI_ML.pdf"
+             target="_blank" rel="noopener noreferrer">
+            AI/ML Resume ↗
+          </a>
+
+          <a class="button button-outline-dark"
+             href="assets/Madhura_Bhuvad.pdf"
+             target="_blank" rel="noopener noreferrer">
+            Data Science Resume ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="section-kicker">07 / CONTACT</p>
+        <h2>Let’s connect.</h2>
+
+        <p class="contact-copy">
+          I’m interested in opportunities in Data Science, Machine
+          Learning, and AI. Feel free to reach out.
+        </p>
+
+        <div class="contact-grid">
+          <a href="mailto:bhuvadmadhura982@gmail.com">
+            <span>Email</span>
+            <strong>bhuvadmadhura982@gmail.com</strong>
+          </a>
+
+          <a href="https://github.com/madhuraaB"
+             target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+            <strong>github.com/madhuraaB ↗</strong>
+          </a>
+
+          <a href="https://www.linkedin.com/in/madhura-bhuvad/"
+             target="_blank" rel="noopener noreferrer">
+            <span>LinkedIn</span>
+            <strong>View LinkedIn profile ↗</strong>
+          </a>
+
+          <div class="contact-item">
+            <span>Phone</span>
+            <strong>7385896672</strong>
+          </div>
+        </div>
+
+        <a class="button button-primary email-button"
+           href="mailto:bhuvadmadhura982@gmail.com?subject=Portfolio%20Enquiry">
+          Email Me ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Madhura Bhuvad</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
